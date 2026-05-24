@@ -107,11 +107,11 @@ table{
 
   border-collapse:collapse;
 
-  min-width:1200px;
+  border-radius:20px;
 
   overflow:hidden;
 
-  border-radius:20px;
+  table-layout:fixed;
 }
 
 /* TABLE HEADER */
@@ -301,16 +301,68 @@ td{
 
 @media(max-width:768px){
 
+  body{
+    padding:8px;
+  }
+
+  .container{
+
+    padding:10px;
+
+    overflow-x:hidden;
+  }
+
   h1{
-    font-size:22px;
+    font-size:16px;
   }
 
   h2{
-    font-size:18px;
+    font-size:13px;
   }
 
-  th,td{
-    padding:10px;
-    font-size:13px;
+  .info{
+    font-size:11px;
+  }
+
+  table{
+
+    width:100%;
+
+    table-layout:fixed;
+  }
+
+  th{
+
+    font-size:9px;
+
+    padding:6px 2px;
+  }
+
+  td{
+
+    font-size:8px;
+
+    padding:6px 2px;
+
+    word-wrap:break-word;
+  }
+
+  .subject-btn{
+
+    border-radius:8px;
+
+    font-size:8px;
+  }
+
+  .recess{
+
+    font-size:10px;
+
+    letter-spacing:1px;
+  }
+
+  #clock{
+
+    font-size:16px;
   }
 }
